@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="container">
+            <img src="birthday-banner.jpg" alt="Birthday Banner" class="banner">
+            <h1>Happy Birthday!</h1>
+            <p class="message">Wishing you a day filled with happiness and a year filled with joy. Happy Birthday!</p>
+            <button onclick="showSurprise()">Click for a Surprise!</button>
+            <div id="surprise" class="hidden">
+                <div class="confetti"></div>
+                <p>🎉🎂🎈</p>
+                <video controls autoplay muted>
+                    <source src="birthday-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
